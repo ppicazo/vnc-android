@@ -10,7 +10,7 @@ initialize()
 mkdir -p /var/run/sshd
 mknod -m 600 /dev/console c 5 1
 mknod /dev/tty0 c 4 0
-echo no | android create avd -t "Google Inc.:Google APIs:28" -c 512M -s 480x800 -n test
+echo no | android create avd -t "Google Inc.:Google APIs:17" -c 512M -s 480x800 -n test
 echo "hw.keyboard=yes" >> ~/.android/avd/test.avd/config.ini
 if
 [ -n "$USER_NAME" ]
