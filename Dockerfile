@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:16.04
 
 MAINTAINER ek "417@gmail.com"
 
